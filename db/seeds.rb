@@ -10,3 +10,7 @@ Task.create(title: "Das ist eine Aufgabe")
 Task.create(title: "Das ist die zweite Aufgabe")
 Task.first.comments.create(body: "Das ist ein Kommentar zur ersten Aufgabe")
 Task.last.comments.create(body: "Das ist ein Kommentar zur letzten Aufgabe")
+
+5.times do |i|
+  Task.create(title: "Aufgabe ##{i}")
+end
