@@ -5,5 +5,10 @@
   <%= @task.title %>
 </p>
 
+<div id="comments">
+  <%= render @task.comments %>
+  <%= render 'comments/new', task: @task %>
+</div>
+
 <%= link_to 'Edit', edit_task_path(@task) %> |
 <%= link_to 'Back', tasks_path %>

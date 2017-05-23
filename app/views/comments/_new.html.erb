@@ -1,0 +1,5 @@
+<%= form_for([ @task, Comment.new ], remote: true) do |form| %>
+  Your comment:<br />
+  <%= form.text_area :body, size: '25x4' %><br />
+  <%= form.submit %>
+<% end %>
