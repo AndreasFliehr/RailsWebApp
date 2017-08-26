@@ -19,7 +19,7 @@ Git commands to checkout the states after the lessons:
 
 1. Cache changes: `git stash`
 
-2. Show which branches are available:
+2. See which branches are available:
 `git branch -r`
 
 3. Switch branch: `git checkout <branch>`
